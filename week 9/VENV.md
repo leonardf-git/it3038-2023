@@ -6,7 +6,8 @@ Find the value python.venvPath
 
 Point to the directory that keeps your virtual environments that you created. 
 
-![](/screenshots/21-10-28-16-37-20.png)
+![image](https://github.com/leonardf-git/it3038-2023/assets/97567564/d17ba08a-f369-442c-a006-de07e1637bd1)
+
 
 This file will save automatically. 
 
