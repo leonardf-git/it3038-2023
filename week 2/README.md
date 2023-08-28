@@ -2,73 +2,6 @@
 
 If you do not have your Github account setup, please do that now. 
 
-## Putty
-First, we'll connect to our Linux instance via Putty. If you are NOT using the Sandbox environment, then you just need to connect via SSH to your Linux machine. 
-
-![](/screenshots/21-08-28-13-03-46.png)
-
-## Create a User 
-Quick aside, I hate putting in a password every time I su, so let’s create a user that doesn’t have to do that. To do this, we have to sudo su to root first. 
-Run the following commands from your Linux PuTTY connection 
-
-```bash
-sudo su
-sudo useradd username                     #### THIS should be YOUR UC username ####
-sudo echo 'username ALL=(ALL:ALL) NOPASSWD:ALL' > /etc/sudoers.d/username
-su – username
-```
-
-Now, let’s do one more step to make our lives super easy. As the user you just created. We’re going to ‘key’ our user so that we can login without a password from our Windows machine. 
-
-On your Windows VM, right-click the PuTTY icon and click Run PuTTYgen
-
-![](/screenshots/21-08-28-13-05-25.png)
-
-Click Generate and move the mouse until the bar is full. This will generate a unique key. 
-
-![](/screenshots/21-08-28-13-05-35.png)
-
-Once finished, select ALL of the text in the window under Public key for pasting into OpenSSH…. 
-
-![](/screenshots/21-08-28-13-05-52.png)
-
-Click “Save public key” and “Save private key”. Click “Yes” that you are sure you want to save without a passphrase. 
-Save them to a location like C:\sshkeys\
-Give the file name your username, botheaj.pub and botheaj.ppk respectively. 
-
-Return to your Linux session. Run the command as your user, making sure all spelling matches:
-
-```bash
-##you may need to create the .ssh directory. To do this, run 
-$ mkdir ~/.ssh/
-
-$ vim ~/.ssh/authorized_keys
-```
-
-Press the 'i' key within VIM to enter *INSERT* mode, then paste the contents of the ssh-rsa key from your puttygen window. It should start with **ssh-rsa** and end with **rsa-key-YYYYMMDD**
-
-
-Save and quit the file by pressing `<esc>` and entering `:wq` (write and quit) 
-
-Now it’s not enough to just have the file, we also need to set permissions on it. Change the perms to 700 for .ssh folder and 600 for the authorized_keys file, that is, read and write for ONLY the owner of the file:
-
-```bash
-$ chmod 700 ~/.ssh
-$ chmod 600 ~/.ssh/authorized_keys
-```
-
-Return to the base PuTTY window. For hostname, enter `username@192.168.33.XX` where username is your user and XX is the last octet of your IP. 
-
-On the left side, under Connections, click SSH | Auth (select Auth, do not click +)
-Click Browse and add your SSH Private Key
-
-![](/screenshots/21-08-28-13-09-13.png)
-
-Return to the Session tab and save the session by entering a session name and clicking Save
-
-![](/screenshots/21-08-28-13-09-23.png)
-
-Now, click Open to open the session. You should be connected as a user, with root access, no password needed. Make sure you can `sudo su` as well. 
 
 # Git for Linux
 Let's install Git on our Linux machine
@@ -485,6 +418,9 @@ TODAY=$(date)
 echo "On $TODAY, there were $POSITIVE positive COVID cases"
 ```
 
+
+
+
 # Lab 2
 Using this template as a starting point, add more data to this script. Please include at least 3 additional datapoints, displayed in a readable output. 
 
@@ -499,3 +435,74 @@ git add .
 git commit -m'Lab 2'
 git push origin main
 ```
+
+
+
+
+## Not Required -- connecting VM's via Putty
+First, we'll connect to our Linux instance via Putty. If you are NOT using the Sandbox environment, then you just need to connect via SSH to your Linux machine. 
+
+![](/screenshots/21-08-28-13-03-46.png)
+
+## Create a User 
+Quick aside, I hate putting in a password every time I su, so let’s create a user that doesn’t have to do that. To do this, we have to sudo su to root first. 
+Run the following commands from your Linux PuTTY connection 
+
+```bash
+sudo su
+sudo useradd username                     #### THIS should be YOUR UC username ####
+sudo echo 'username ALL=(ALL:ALL) NOPASSWD:ALL' > /etc/sudoers.d/username
+su – username
+```
+
+Now, let’s do one more step to make our lives super easy. As the user you just created. We’re going to ‘key’ our user so that we can login without a password from our Windows machine. 
+
+On your Windows VM, right-click the PuTTY icon and click Run PuTTYgen
+
+![](/screenshots/21-08-28-13-05-25.png)
+
+Click Generate and move the mouse until the bar is full. This will generate a unique key. 
+
+![](/screenshots/21-08-28-13-05-35.png)
+
+Once finished, select ALL of the text in the window under Public key for pasting into OpenSSH…. 
+
+![](/screenshots/21-08-28-13-05-52.png)
+
+Click “Save public key” and “Save private key”. Click “Yes” that you are sure you want to save without a passphrase. 
+Save them to a location like C:\sshkeys\
+Give the file name your username, botheaj.pub and botheaj.ppk respectively. 
+
+Return to your Linux session. Run the command as your user, making sure all spelling matches:
+
+```bash
+##you may need to create the .ssh directory. To do this, run 
+$ mkdir ~/.ssh/
+
+$ vim ~/.ssh/authorized_keys
+```
+
+Press the 'i' key within VIM to enter *INSERT* mode, then paste the contents of the ssh-rsa key from your puttygen window. It should start with **ssh-rsa** and end with **rsa-key-YYYYMMDD**
+
+
+Save and quit the file by pressing `<esc>` and entering `:wq` (write and quit) 
+
+Now it’s not enough to just have the file, we also need to set permissions on it. Change the perms to 700 for .ssh folder and 600 for the authorized_keys file, that is, read and write for ONLY the owner of the file:
+
+```bash
+$ chmod 700 ~/.ssh
+$ chmod 600 ~/.ssh/authorized_keys
+```
+
+Return to the base PuTTY window. For hostname, enter `username@192.168.33.XX` where username is your user and XX is the last octet of your IP. 
+
+On the left side, under Connections, click SSH | Auth (select Auth, do not click +)
+Click Browse and add your SSH Private Key
+
+![](/screenshots/21-08-28-13-09-13.png)
+
+Return to the Session tab and save the session by entering a session name and clicking Save
+
+![](/screenshots/21-08-28-13-09-23.png)
+
+Now, click Open to open the session. You should be connected as a user, with root access, no password needed. Make sure you can `sudo su` as well. 
