@@ -230,18 +230,20 @@ DISCLAIMER: Something I've noticed from previous sections of this course is gith
 
 If you haven't already with the steps above here are just a few more video tutorial perspectives on connecting git to local.  Reminder this is not a requirement you can manually paste/upload your files to github if you don't want to deal with this on the sandbox environment.
 
+```
 https://www.youtube.com/watch?v=qYoc07Da6kg
 
 https://www.youtube.com/watch?v=Fqpl3c1im00
 
 https://www.youtube.com/watch?v=Msw7WJPqS34
+```
 
 Manual upload (my video shows this as well)
-
+```
 https://www.youtube.com/watch?v=xmK1Q5uzH4w <-- This is all you need for lab 1, you would just create a Bash and Powershell directory
 
 https://www.youtube.com/watch?v=eGaImwD8fPQ
-
+```
 
 # Completing LAB 1 
 Return to Canvas: 
