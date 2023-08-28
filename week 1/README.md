@@ -236,6 +236,7 @@ https://www.youtube.com/watch?v=Msw7WJPqS34
 
 Manual upload (my video shows this as well)
 https://www.youtube.com/watch?v=xmK1Q5uzH4w <-- This is all you need for lab 1, you would just create a Bash and Powershell directory
+
 https://www.youtube.com/watch?v=eGaImwD8fPQ
 
 
