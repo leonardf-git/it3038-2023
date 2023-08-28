@@ -190,6 +190,9 @@ Click “Create repository”
 Return to your Windows server. 
 We’re going connect our systems to Github. 
 
+## Creating directories & connecting to your github to your CLI
+
+
 Open PowerShell as administrator so we can setup our directory for use with Github. Follow these instructions and DO NOT COPY AND PASTE. You’ll need to change certain fields, like your username and email: 
 
 Change dir to the root of C:, then create an it3038c-scripts folder and subfolders with files in them. The commands are:
@@ -219,6 +222,22 @@ git push origin main
 `
 Login with your github.com credentials. 
 If you followed all of these steps correctly, you will see your two folders that you just created in your repo on github.com. 
+
+DISCLAIMER: Something I've noticed from previous sections of this course is github is really useful if you keep everything in sync but can be a bit of a pain to troubleshoot if you run your commands out of order across your machines, sandbox seems to elevate this.  So if you run into issues with uploading future assignments to GitHub it is ok to manually upload your completed scripts to GitHub as well.  In semesters past we have spent a lot of time with students resolving GitHub errors where I would rather more time be allocated to the actual scripting languages.  We have a whole module (4) around GitHub and change control that we will spend more time learning GitHub.  So basically as long as you have your scripts in github via whatever means you are alright!
+
+
+# Useful github tutorials (there is infinite amount of these, if you run into an issue with your repo searching for the error on web or youtube should yield a tutorial to dig it out)
+
+If you haven't already with the steps above here are just a few more video tutorial perspectives on connecting git to local.  Reminder this is not a requirement you can manually paste/upload your files to github if you don't want to deal with this on the sandbox environment.
+
+https://www.youtube.com/watch?v=qYoc07Da6kg
+https://www.youtube.com/watch?v=Fqpl3c1im00
+https://www.youtube.com/watch?v=Msw7WJPqS34
+
+Manual upload (my video shows this as well)
+https://www.youtube.com/watch?v=xmK1Q5uzH4w <-- This is all you need for lab 1, you would just create a Bash and Powershell directory
+https://www.youtube.com/watch?v=eGaImwD8fPQ
+
 
 # Completing LAB 1 
 Return to Canvas: 
