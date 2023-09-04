@@ -451,6 +451,18 @@ git push origin main
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 ## Not Required -- connecting VM's via Putty
 First, we'll connect to our Linux instance via Putty. If you are NOT using the Sandbox environment, then you just need to connect via SSH to your Linux machine. 
 
