@@ -377,7 +377,19 @@ Save and run the script again. You should see an output that includes your IP ad
 # A Real World Example
 The takeaway with bash scripting is you can take any set of Linux commands and turn them into a bash script. 
 
-Let's write a simple script that pulls from data from the internet. For this we'll use the `curl` command plus another tool called `jq`. Both of these should already be installed
+Let's write a simple script that pulls from data from the internet. For this we'll use the `curl` command plus another tool called `jq`.
+
+Curl should be on our machines but here are instructions for getting jq:
+
+```
+To install jq:
+
+sudo yum install epel-release 
+
+Then
+
+sudo yum install jq
+```
 
 Here is an example of the command we'll be turning into a script: 
 ```
