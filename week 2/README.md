@@ -25,7 +25,14 @@ ssh-keygen -t ed25519 -C "<your-github-email>"
 ```
 You'll be prompted for a save location. Defaults are fine, and we don't need a password, so keep hitting enter until you are out of the command. 
 
+![image](https://github.com/leonardf-git/it3038-2023/assets/97567564/37255158-4827-4386-8b3f-7a3880d5b0c7)
+
+
+
 Now we need to copy our "public" key from our linux server to https://github.com/settings/ssh/new 
+
+![image](https://github.com/leonardf-git/it3038-2023/assets/97567564/c546099b-550d-4718-a893-5938e220b060)
+
 
 Run the following command:
 ```bash
