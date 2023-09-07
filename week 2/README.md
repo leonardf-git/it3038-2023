@@ -34,14 +34,18 @@ Now we need to copy our "public" key from our linux server to https://github.com
 
 
 
-Run the following command:
+Run the following command and copy the output this is what you will paste into github.com/settings/ssh/new :
 ```bash
 cat ~/.ssh/id_ed25519.pub 
 ```
-![image](https://github.com/leonardf-git/it3038-2023/assets/97567564/c546099b-550d-4718-a893-5938e220b060)
+![image](https://github.com/leonardf-git/it3038-2023/assets/97567564/85789f5d-cf6f-4e3c-9dc2-496bf685acc6)
+
 
 
 Give it a friendly name (sandbox) then paste the contents of the file above and Save. 
+![image](https://github.com/leonardf-git/it3038-2023/assets/97567564/c546099b-550d-4718-a893-5938e220b060)
+
+
 
 Return to your repo in Github. Click the code button and copy the "SSH" clone location:
 
