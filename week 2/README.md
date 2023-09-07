@@ -31,14 +31,14 @@ You'll be prompted for a save location. Defaults are fine, and we don't need a p
 
 Now we need to copy our "public" key from our linux server to https://github.com/settings/ssh/new 
 
-![image](https://github.com/leonardf-git/it3038-2023/assets/97567564/c546099b-550d-4718-a893-5938e220b060)
+
 
 
 Run the following command:
 ```bash
 cat ~/.ssh/id_ed25519.pub 
 ```
-![image](https://github.com/leonardf-git/it3038-2023/assets/97567564/331391cd-ecb7-49f0-bb44-2a0bf0153d32)
+![image](https://github.com/leonardf-git/it3038-2023/assets/97567564/c546099b-550d-4718-a893-5938e220b060)
 
 
 Give it a friendly name (sandbox) then paste the contents of the file above and Save. 
