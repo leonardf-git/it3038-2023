@@ -38,6 +38,8 @@ Run the following command:
 ```bash
 cat ~/.ssh/id_ed25519.pub 
 ```
+![image](https://github.com/leonardf-git/it3038-2023/assets/97567564/331391cd-ecb7-49f0-bb44-2a0bf0153d32)
+
 
 Give it a friendly name (sandbox) then paste the contents of the file above and Save. 
 
