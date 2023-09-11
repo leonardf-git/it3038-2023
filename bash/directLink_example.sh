@@ -1,0 +1,1 @@
+## Example Direct link script.
