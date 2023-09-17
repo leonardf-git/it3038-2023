@@ -460,7 +460,39 @@ Now your systems should be in sync. Any time you make changes you will have to p
 
 # LAB 3 
 
-Complete the script below with the following information and use Send-MailMessage to mail the information to yourself (and me for credit).  **Alternatively**, you can output the contents of the script to a file and attach that file to the assignment. 
+
+Complete the script below with the following information and use Send-MailMessage to mail the information to yourself.  **Alternatively**, you can output the contents of the script to a file and attach that file to the assignment. 
+
+Your script should contain a $Body variable (and all of the content needed for that) to Canvas. The end of the script should generate and send an email or output the contents of $Body to a file. 
+
+Screenshot of the $Body variable can be a screenshot of the email you received or the text file you wrote to the VM.
+
+
+The contents of the screenshot and $Body variable should look similar to this:  
+
+This machine's IP is 192.168.33.53. User is Administrator. Hostname is reedws-win. PowerShell Version 5. Today's Date is Tuesday, January 29, 202X
+
+Hint: You should already know how to get your machines IP using the getIP cmdlet, you can populate your $Body variable with your $IP variable output.  Now getting $User, $Host, $Ver, and $Date are up to you and will require a bit of research.  You should be able to get all of these through default Powershell cmdlets, and/or environment variables.  Below I've given an example with the IP and using an environment variable for getting your $User these are default variables in powershell that keep information like your user, versioning, etc.. 
+
+
+![image](https://github.com/leonardf-git/it3038-2023/assets/97567564/35ad265f-ba3d-4e15-9cb3-32e0a429c157)
+
+
+```
+function getIP{
+    (get-netipaddress).ipv4address | Select-String "192*"
+}
+
+$IP = getIP
+$User = $env:Username  <-- This is an environment variable
+$ver = ?
+$HOST = ?
+$DATE = ?
+
+$BODY = "This machine's IP is $IP. User is $User. Hostname is $HOST. PowerShell $ver. Today's Date is $DATE."
+
+```
+
 
 
 PowerShell REQUIRES an SMTP server to send email. 
