@@ -662,7 +662,7 @@ Click the ... and click Push. That's it!
 
 Complete the in-class lab. In addition, create some more folders on the main branch and include some empty files so that Git will register them (Git doesn't register empty directories). Submit the URL to your github.com repo Lab 4. 
 
-It should include Lab 2 and Lab 3 scripts, as well as a "Dev" branch. You should also include at least these folders : powershell, bash, node, python, labs, project1.
+It should include Lab 2 and Lab 3 scripts, as well as a "Dev" branch. You should also include at least these folders : powershell, bash, node, python.
  
 
  
