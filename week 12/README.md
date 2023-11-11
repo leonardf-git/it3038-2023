@@ -240,7 +240,8 @@ Once it’s running, take a look at the application. Create an account, login an
  
 ## Lab 11
 
-Submit the link to your github folder containing the flask app you created above. It should run and prompt me to input my name, and work when I submit it.  
+In Github folder link the directory containing the flask app you created above. It should run and prompt me to input my name, and work when I submit it.  
 
+For your submission create a word document with a screenshot of your entire script, the link to your script on github, and screenshots of your script running, submit this to canvas. If your script is still running into errors be sure to still include a screenshot of your whole script and the entire error message when attempting to run your script (partial credit).
  
 
