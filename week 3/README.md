@@ -459,13 +459,13 @@ Now your systems should be in sync. Any time you make changes you will have to p
  
 
 # LAB 3 
-
+For your submission create a word document with a screenshot of your entire script and screenshots of your script running, submit this to canvas.  If your script is still running into errors be sure to still include a screenshot of your whole script and the entire error message when attempting to run your script (partial credit).
 
 Complete the script below with the following information and use Send-MailMessage to mail the information to yourself.  **Alternatively**, you can output the contents of the script to a file and attach that file to the assignment. 
 
 Your script should contain a $Body variable (and all of the content needed for that) to Canvas. The end of the script should generate and send an email or output the contents of $Body to a file. 
 
-Screenshot of the $Body variable can be a screenshot of the email you received or the text file you wrote to the VM.
+Screenshot of the $Body variable can be a screenshot of the email you received or the text file you wrote to the VM.  
 
 
 The contents of the screenshot and $Body variable should look similar to this:  
