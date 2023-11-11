@@ -253,3 +253,4 @@ Link to Github.com: https://github.com/<your username>
 
 Your Github.com page should contain the it3038c-scripts repository which contains the PowerShell and Bash folders. 
 
+For your submission create a word document with a link to your github.
