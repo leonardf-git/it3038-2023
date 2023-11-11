@@ -404,4 +404,4 @@ LAB 6
 Here is a sample page: 
 ![](/screenshots/21-09-28-13-20-59.png)
 
-For your submission create a word document with a screenshot of your entire script and screenshots of your script running, submit this to canvas. If your script is still running into errors be sure to still include a screenshot of your whole script and the entire error message when attempting to run your script (partial credit).
+For your submission create a word document with a screenshot of your entire script, the link to your script on github, and screenshots of your script running, submit this to canvas. If your script is still running into errors be sure to still include a screenshot of your whole script and the entire error message when attempting to run your script (partial credit).
