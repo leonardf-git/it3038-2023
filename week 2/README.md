@@ -453,8 +453,7 @@ Using this template as a starting point, add more data to this script. Please in
 `On Sat Aug 28 14:23:53 EDT 2021, there were 28756489 positive cases, 74582825 negative tests, 500500 deaths and 776361 hospitalized.`
 
 ### Submission
-Add your script to Github and push via commandnline or by manual upload.  For your submission create a word document with a screenshot of your entire script and screenshots of your script running, submit this to canvas.  If your script is still running into errors be sure to still include a screenshot of your whole script and the entire error message when attempting to run your script (partial credit).
-
+For your submission create a word document with a screenshot of your entire script, the link to your script on github, and screenshots of your script running, submit this to canvas. If your script is still running into errors be sure to still include a screenshot of your whole script and the entire error message when attempting to run your script (partial credit).  This will be the format for submissions most weeks.
 ```
 git add .
 git commit -m'Lab 2'
