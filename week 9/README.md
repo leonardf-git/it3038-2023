@@ -321,7 +321,9 @@ Notice a few things: we’re using the html.parser. That’s because it just wor
 
 ## Lab 8 
 
-Using a website of your choice, extract some valuable data from it and print it to the console. Print the output in a matter that makes sense, for example, if you’re scraping a store page, print the item name and price on the same line. Be careful, because multiple hits to a website may prevent you from further visiting that site. Also, some sites immediately block scraping attempts. If this happens, select a different site. Commit your script to github and submit a portion of the output from your script.  
+Using a website of your choice, extract some valuable data from it and print it to the console. Print the output in a matter that makes sense, for example, if you’re scraping a store page, print the item name and price on the same line. Be careful, because multiple hits to a website may prevent you from further visiting that site. Also, some sites immediately block scraping attempts. If this happens, select a different site. 
+
+For your submission create a word document with a screenshot of your entire script, the link to your script on github, and screenshots of your script running, submit this to canvas. If your script is still running into errors be sure to still include a screenshot of your whole script and the entire error message when attempting to run your script (partial credit).
 
  
 
