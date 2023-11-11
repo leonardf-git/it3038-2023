@@ -318,3 +318,4 @@ Refer to last week’s NodeJS code. You’ll need the file, the data and a respo
 
 Your widgets.json file needs to get sent to Heroku and you need to point to it without knowing the full path. A relative path should do (eg. ./public/widgets.json) 
 
+For your submission create a word document with a screenshot of your entire script, the link to your script on github, and screenshots of your script running, submit this to canvas. If your script is still running into errors be sure to still include a screenshot of your whole script and the entire error message when attempting to run your script (partial credit).
