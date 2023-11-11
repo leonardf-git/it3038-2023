@@ -327,6 +327,7 @@ The best way to do this is to run your NodeJS script and python script on the sa
 
 Formatting the output is important in this lab.  
 
+For your submission create a word document with a screenshot of your entire script, the link to your script on github, and screenshots of your script running, submit this to canvas. If your script is still running into errors be sure to still include a screenshot of your whole script and the entire error message when attempting to run your script (partial credit).
  
 
  
