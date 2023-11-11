@@ -664,7 +664,7 @@ Complete the in-class lab. In addition, create some more folders on the main bra
 
 It should include Lab 2 and Lab 3 scripts, as well as a "Dev" branch. You should also include at least these folders : powershell, bash, node, python.
 
-For your submission create a word document with screenshots of your new github dev branch and all the required new directories/folders.
+For your submission create a word document with screenshots of your new github dev branch, a link to your github dev branch, and all the required new directories/folders.
  
 
  
