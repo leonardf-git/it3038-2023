@@ -459,7 +459,7 @@ Now your systems should be in sync. Any time you make changes you will have to p
  
 
 # LAB 3 
-For your submission create a word document with a screenshot of your entire script and screenshots of your script running, submit this to canvas.  If your script is still running into errors be sure to still include a screenshot of your whole script and the entire error message when attempting to run your script (partial credit).
+For your submission create a word document with a screenshot of your entire script, the link to your script on github, and screenshots of your script running, submit this to canvas. If your script is still running into errors be sure to still include a screenshot of your whole script and the entire error message when attempting to run your script (partial credit).
 
 Complete the script below with the following information and use Send-MailMessage to mail the information to yourself.  **Alternatively**, you can output the contents of the script to a file and attach that file to the assignment. 
 
