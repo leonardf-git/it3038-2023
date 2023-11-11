@@ -459,4 +459,6 @@ Node: https://www.npmjs.com/
 Write a script that uses that plugin and include at least 3 different usages of the plugin that you’ve selected. For example, if you’ve selected to use Pillow, a Python plugin for manipulating images, give 3 different examples of tasks you can use this plugin for, like blurring an image, creating a thumbnail or applying a filter.  
 
 Once you’ve written a script that shows these examples, create another `README.md` file in the `Labs` folder that tells me how to install the modules and run the script you created. [Here is an example of what I'm looking for in the README](./Lab7Example.md)
+
+For your submission create a word document with a screenshot of your entire script, the link to your script on github, and screenshots of your script running, submit this to canvas. If your script is still running into errors be sure to still include a screenshot of your whole script and the entire error message when attempting to run your script (partial credit).
  
