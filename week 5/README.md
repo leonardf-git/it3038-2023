@@ -670,11 +670,11 @@ This script calls a protected file, so you’ll have to run it using SUDO on lin
 
  
 
-LAB 5 
+Pratice Lab 
 
 Create a folder called ‘Labs’ at the root of your git repository.  
 
-Create a file called `Lab5.py`. In it, select 1 of the following problems and write a solution in Python.  
+Create a file called `Lab.py`. In it, select 1 of the following problems and write a solution in Python.  
 
 Take a birthday date input and calculate how many seconds old you are  
 
